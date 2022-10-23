@@ -86,3 +86,8 @@
 .info__btn::before {
     content: url(../images/icon-cart.svg);
 }
+
+.info__btn::hover {
+    cursor: pointer:
+    background-color: hsl(158, 36%, 20%);
+}
