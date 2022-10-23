@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    .img__banner--desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .main {
+        display: grid;
+        width: 600px;
+        height: 500px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img__banner {
+        border-radius: 12px 0 0 12px;
+        grid-column: 1/2;
+        object-fit: cover;
+    }
+
+    .img__banner--mobile {
+        display: none;
+    }
+
+    .info {
+        justify-content: space-between;
+        grid-column: 2/3;
+        padding: 2.5rem 2rem;
+    }
+}
