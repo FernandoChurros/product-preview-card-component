@@ -65,10 +65,6 @@
     font-size: 2rem;
 }
 
-.info__price--tachado {
-    text-decoration: line-through;
-}
-
 .info__btn {
     display: flex;
     align-items: center;
@@ -88,6 +84,6 @@
 }
 
 .info__btn:hover {
-    cursor: pointer:
+    cursor: pointer;
     background-color: hsl(158, 36%, 20%);
 }
